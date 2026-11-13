@@ -6,16 +6,17 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>YADIS OhioT1DM Models</Title>
-        <Authors>N. Batchaev</Authors>
+        <Authors>Nazar Batchaev</Authors>
         <Description>Data models (DTOs) for the OhioT1DM dataset annotated for XML and MessagePack serialization.</Description>
         <PackageProjectUrl>https://github.com/nbatchaev/YADIS</PackageProjectUrl>
         <RepositoryUrl>https://github.com/nbatchaev/YADIS</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>diabetes blood-glucose cgm ohiot1dm t1d models dto xml messagepack yadis</PackageTags>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MessagePack" Version="3.1.12" />
+        <PackageReference Include="MessagePack" Version="3.1.12" />
     </ItemGroup>
 
 </Project>
