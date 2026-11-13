@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>YADIS OhioT1DM Models</Title>
+        <Authors>N. Batchaev</Authors>
+        <Description>Data models (DTOs) for the OhioT1DM dataset annotated for XML and MessagePack serialization.</Description>
+        <PackageProjectUrl>https://github.com/nbatchaev/YADIS</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/nbatchaev/YADIS</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>diabetes blood-glucose cgm ohiot1dm t1d models dto xml messagepack yadis</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MessagePack" Version="3.1.12" />
+    </ItemGroup>
+
+</Project>
